@@ -304,6 +304,7 @@
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
 
+<<<<<<< HEAD
 
         <!-- Flag indicating whether the surface flinger has limited
          alpha compositing functionality in hardware.  If set, the window
@@ -321,5 +322,10 @@
     <dimen name="rounded_corner_radius_top">38px</dimen>
     <dimen name="rounded_corner_radius_bottom">39px</dimen>
 
+    <!-- Flag indicating whether the surface flinger is inefficient
+         at performing a blur.  Used by parts of the UI to turn off
+         the blur effect where it isn't worth the performance hit.
+         As of Honeycomb, blurring is not supported anymore. -->
+    <bool name="config_sf_slowBlur">false</bool>
 </resources>
 
