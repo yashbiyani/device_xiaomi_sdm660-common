@@ -36,9 +36,6 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-ifeq ($(BOARD_KERNEL_COMMON),true)
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
-endif
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # QCOM hardware
