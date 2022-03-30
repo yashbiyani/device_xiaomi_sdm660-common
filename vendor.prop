@@ -105,6 +105,9 @@ vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 persist.vendor.camera.perflock.enable=0
 
+# Codec2 switch
+debug.media.codec2=2
+
 # Display
 debug.sf.disable_backpressure=1
 debug.sf.hw=1
