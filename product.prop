@@ -12,3 +12,5 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
 # Graphics
 debug.hwui.renderer=skiagl
+debug.sf.disable_client_composition_cache=1
+debug.sf.enable_gl_backpressure=1
