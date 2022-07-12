@@ -72,11 +72,6 @@
     <string name="doze_settings_help_title">Help</string>
     <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.</string>
 
-    <!-- Vibration Slider -->
-    <string name="vibrator_intensity_control">Vibration</string>
-    <string name="vib_strength_title_head">Vibration Strength</string>
-    <string name="vib_strength_summary_head">Define the strength of the vibrator</string>
-
     <!-- USB fastcharge -->
     <string name="fastcharge_control">USB Fastcharge Control</string>
     <string name="fastcharge_title">Enable USB Fastcharge</string>

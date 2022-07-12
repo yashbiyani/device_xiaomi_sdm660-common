@@ -27,7 +27,7 @@ import androidx.preference.PreferenceManager;
 
 import com.xiaomiparts.settings.doze.DozeUtils;
 import com.xiaomiparts.settings.kcal.Utils;
-import com.xiaomiparts.settings.vibration.VibratorStrengthPreference;
+
 
 public class BootCompletedReceiver extends BroadcastReceiver implements Utils {
 
@@ -38,7 +38,6 @@ public class BootCompletedReceiver extends BroadcastReceiver implements Utils {
     public void onReceive(final Context context, Intent intent) {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
         DozeUtils.checkDozeService(context);
-        VibratorStrengthPreference.restore(context);
 		
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
 
