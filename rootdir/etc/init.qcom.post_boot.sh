@@ -1499,6 +1499,9 @@ case "$target" in
                 # Enable timer migration to little cluster
                 echo 1 > /proc/sys/kernel/power_aware_timer_migration
 
+                # Remove settings cache, avoids derps after dirty flash
+                rm -rf /data/system/package_cache
+
                 # Set Memory parameters
                 configure_memory_parameters
 
