@@ -106,6 +106,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Build
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 RELAX_USES_LIBRARY_CHECK := true
