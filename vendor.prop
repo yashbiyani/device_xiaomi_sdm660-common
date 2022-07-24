@@ -184,5 +184,3 @@ ro.soc.model=SDM660
 # Time
 persist.vendor.delta_time.enable=true
 
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
