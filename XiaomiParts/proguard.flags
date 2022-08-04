@@ -1,7 +1,3 @@
 -keep class com.xiaomiparts.settings.doze.* {
   *;
 }
--keep class com.xiaomiparts.settings.dirac.* {
-  *;
-}
-
