@@ -1,0 +1,3 @@
+allow xiaomiparts_app {
+   media_session_service
+}:service_manager find;

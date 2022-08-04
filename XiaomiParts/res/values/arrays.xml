@@ -97,6 +97,11 @@
         <item>@string/dirac_headset_in_ear2</item>
         <item>@string/dirac_headset_earphone_basic</item>
         <item>@string/dirac_headset_earphone</item>
+        <item>@string/dirac_headset_ear_four</item>
+        <item>@string/dirac_headset_piston_typec</item>
+        <item>@string/dirac_headset_bluetooth_collar</item>
+        <item>@string/dirac_headset_bluetooth_linefree</item>
+        <item>@string/dirac_headset_redmi_earphones</item>
     </string-array>
 
     <string-array name="dirac_headset_pref_values" translatable="false">
