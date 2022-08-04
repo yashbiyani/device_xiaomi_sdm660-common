@@ -4,6 +4,7 @@ allow system_app sysfs_vibrator:file rw_file_perms;
 allow system_app sysfs_usb_fastcharge:file { open read getattr write };
 allow system_app kcal_sysfs:dir search;
 allow system_app kcal_sysfs:file rw_file_perms;
+allow system_app media_session_service:service_manager find;
 
 # FPS Info
 allow system_app sysfs_fps:dir search;
