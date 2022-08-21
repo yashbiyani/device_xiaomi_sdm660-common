@@ -521,6 +521,9 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 on property:sys.boot_completed=1
     start qcom-post-boot
 
+ # Restrict permissions to socket file to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 
