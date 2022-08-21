@@ -175,6 +175,39 @@ vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
 vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
 vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
 
+# Fingerprint firmware - from whyred
+etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00|27461b3d39f9eadfa0c40fbd40c059a3249fabc6
+etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01|719d2059dbfb4e5617011c0ed5457b4a6e25ee78
+etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02|8551e1165f375da6a43626e544d9420781a31de6
+etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03|aaddfacff48c2c9c21e017156f38ae5cf9f5882f
+etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04|128adf67d8ceb5db9854681a20c6405454737d7f
+etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05|1636b1832ae4a432aa80268b3cb2408287b25b76
+etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06|1636b1832ae4a432aa80268b3cb2408287b25b76
+etc/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07|407112af6667668c7cc2e4a673fd2d6cef1bf1d1
+etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt|e4e43294fe94a78f20331c85b24067f885229d33
+vendor/firmware/fpctzappfingerprint.b00|7ddcb716f2537eabfd7dc741db41f313e602b783
+vendor/firmware/fpctzappfingerprint.b01|49829cd98d8585726800417635ef93638963c1a7
+vendor/firmware/fpctzappfingerprint.b02|fe14d0c23fd5ce28552cc288d7d351cb454ddcad
+vendor/firmware/fpctzappfingerprint.b03|f6de743222e1d850798cc7eece48b74463bf5ff4
+vendor/firmware/fpctzappfingerprint.b04|4c4b8a49b6e73d754c1c18a4b8533e0251d8b34e
+vendor/firmware/fpctzappfingerprint.b05|8b2ba9380050139fcb54d45c1978e54c080e6e2c
+vendor/firmware/fpctzappfingerprint.b06|8b2ba9380050139fcb54d45c1978e54c080e6e2c
+vendor/firmware/fpctzappfingerprint.b07|cb22bc47816a9c456fda2fdbd24486ea925fda42
+vendor/firmware/fpctzappfingerprint.mdt|f709249da0d08cdcf43f561782ac3d6695a154ec
+
+# Fingerprint sensor - from whyred
+-vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|9aa63e30e79364e296061a69a77c8c6e00ea89d4
+vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
+-vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
+vendor/lib64/hw/fingerprint.fpc.default.so|987534d26e67c23f8d875e056386e91522b4d192
+vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
+vendor/lib64/com.fingerprints.extension@1.0.so|4b6adc0e9deb2dbdd70ac3558a28c9ffc5b0da2f
+vendor/lib64/libgf_ca.so|b7635dcbea9a7e7252e746914f995a5ffb92b5d0
+vendor/lib64/libgf_hal.so|d601b957f58e840d2ff5a69f7fda74aca93805b2
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04926cde4fb475d074331ba8dbf5
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|665d7c8b3997acf7b965bd40a5188e35f8264cdd
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|1cf42abed46ea863d5d844e3a2f945bd6a9fff39
+
 # GPS - from jasmine
 vendor/bin/loc_launcher|d0d1465a7f8eb24c50b3c616dccaf68b3dc7888a
 vendor/bin/lowi-server|6f11d0315e49aff2d8b24759bf7b2ca12659ac10
