@@ -32,4 +32,4 @@ dontaudit hal_fingerprint_default storage_file:dir search;
 allow hal_fingerprint_sdm660 system_prop:file { read };
 
 # Allow fp HAL to send hint
-hal_client_domain(hal_fingerprint_tulip, hal_power)
+hal_client_domain(hal_fingerprint_sdm660, hal_power)
