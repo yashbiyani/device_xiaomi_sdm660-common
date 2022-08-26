@@ -105,6 +105,7 @@ vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 
 # Display
+debug.sf.disable_client_composition_cache=1
 debug.sf.disable_backpressure=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=0
