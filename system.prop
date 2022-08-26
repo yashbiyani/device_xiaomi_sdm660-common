@@ -55,6 +55,9 @@ ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
 
+#  Keyguard
+persist.wm.enable_remote_keyguard_animation=0
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
