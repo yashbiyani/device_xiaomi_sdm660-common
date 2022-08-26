@@ -342,5 +342,9 @@
          from DOZE to ON, in millis. -->
     <integer name="config_wakeUpDelayDoze">32</integer>
 
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
+
 </resources>
 
