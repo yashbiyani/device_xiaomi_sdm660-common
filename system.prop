@@ -20,7 +20,6 @@ bluetooth.profile.vcp.controller.enabled=true
 # Blur
 ro.sf.blurs_are_expensive=0
 ro.surface_flinger.supports_background_blur=0
-ro.launcher.blur.appLaunch=0
 debug.sdm.support_writeback=0
 
 # CNE
