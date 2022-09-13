@@ -272,7 +272,8 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.xiaomi_sdm660
+    lights.qcom \
+    android.hardware.lights-service.qti
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
