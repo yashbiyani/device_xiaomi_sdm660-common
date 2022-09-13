@@ -273,7 +273,8 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     lights.qcom \
-    android.hardware.lights-service.qti
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \

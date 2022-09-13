@@ -144,6 +144,12 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IDisplayPostproc/default</fqname>
     </hal>
+    <!-- LIGHT HAL SERVICE -->
+    <hal format="hidl">
+        <name>android.hardware.light</name>
+        <transport>hwbinder</transport>
+	<fqname>@2.0::ILight/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
         <transport>hwbinder</transport>
