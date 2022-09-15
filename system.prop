@@ -58,6 +58,12 @@ ro.config.sdha_apps_bg_min=8
 #  Keyguard
 persist.wm.enable_remote_keyguard_animation=0
 
+# Media
+vidc.enc.target_support_bframe=1
+vendor.vidc.enc.disable_bframes=1
+vendor.vidc.dec.enable.downscalar=1
+vendor.vidc.enc.disable.pq=true
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
