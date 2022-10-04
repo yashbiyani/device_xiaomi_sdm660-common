@@ -4,22 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Battery health -->
-    <bool name="config_supportBatteryHealth">true</bool>
-    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_coun>
-    <string name="config_batteryDesignCapacity">/sys/class/power_supply/bms/charge_full_des>
-    <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</stri>
-
-    <!-- Defines the location of the fingerprint sensor on the device:
-         0 = Back
-         1 = Front
-         2 = Left
-         3 = Right
-    -->
-    <integer name="config_fingerprintSensorLocation">0</integer>
-
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
-
 </resources>
