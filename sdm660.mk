@@ -379,6 +379,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackage
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
