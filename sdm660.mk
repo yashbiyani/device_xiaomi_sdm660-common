@@ -386,7 +386,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackage
+    RemovePackages
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
