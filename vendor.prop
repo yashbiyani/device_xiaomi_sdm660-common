@@ -134,6 +134,12 @@ debug.sf.enable_gl_backpressure=1
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
+# Fling Velocity
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
@@ -141,9 +147,19 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.vendor.qti.va_aosp.support=1
 
 # IMS
+persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1 
+persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
+persist.radio.calls.on.ims=1
+persist.radio.VT_ENABLE=1
+persist.radio.aosp_usr_pref_sel=true
+
+# Keystore
+ro.hardware.keystore_desede=true
 
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
